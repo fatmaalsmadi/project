@@ -1,0 +1,643 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(165, 130, 143);
+}
+.cards{
+display: inline-block;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 40px;
+  height: 454px;
+  margin-top: 39px;
+  transition: 5s;
+
+  box-shadow: 6px 13px 12px black;
+}
+h2{
+  font-size: 5.5rem;
+  color: #333;
+  margin: 5.5rem 0;
+  text-align: center;
+  font-style: italic;
+  transition: 5s;
+
+}
+
+
+
+
+
+
+.image img{
+width: 100%;
+height: 253px;
+transition: 5s;
+
+}
+.image img :hover{
+transition: 5s;
+
+}
+
+.title{
+text-align: center;
+margin-top: 13px;
+
+}
+.des{
+  text-align: center;
+  padding: 0px;
+  margin-top: -515px;
+  transition: 5s;
+
+
+}
+
+button{
+  margin-top: 100px;
+
+  background: linear-gradient(to right , #68233a ,#f56b94);
+}
+   button {
+    font-style: italic;
+    background: linear-gradient(to right , #68233a ,#f56b94);
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 38px;
+    font-family: Raleway;
+    cursor: pointer;
+    margin-top: 595px;
+    width: 100%;
+    height: 65px;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* .العلمي {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+ 
+ 
+ 
+.رياضيات{
+    font-size:30px;
+    margin-left: 118px;
+    text-decoration: none;
+    line-height: 25px;
+    position: absolute;
+    right: 39px;
+    top:5px;
+    padding: 20PX;
+    font-family: -webkit-pictograph;
+    font-size: 30px;
+    font-style: italic;
+
+}
+.فيزياء{
+    text-decoration: none;
+    line-height: 25px;
+    color: black;
+    position: absolute;
+    padding: 29PX;
+    right: 162px;
+    font-family: -webkit-pictograph;
+    top: -5px;
+    font-size: 30px;
+    margin: 1px;
+    font-style: italic;
+    margin-left: 118px;
+
+}
+
+.كيمياء
+{
+    float: right;
+    font-size:30px;
+    color:black;
+    text-decoration: none;
+    line-height: 25px;
+    position: absolute;
+    position: absolute;
+    right: 256px;
+    top: 5px;
+    padding: 20PX;
+    font-family: -webkit-pictograph;
+    font-size: 30px;
+    font-style: italic;
+
+
+}
+
+.أحياء {
+    font-style: italic;
+
+    float: right;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    line-height: 25px;
+    position: absolute;
+    position: absolute;
+    left: 358px;
+    top: 5px;
+    padding: 20PX;
+    font-family: -webkit-pictograph;
+    font-size: 30px;
+}
+ .علوم  {
+    float: right;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    line-height: 25px;
+    position: absolute;
+    position: absolute;
+    left: 332px;
+    top: 5px;
+    padding: 20PX;
+    font-family: -webkit-pictograph;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+#card-wrapper {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  height: 507px;
+  margin-right: 67px;
+margin-top:216px;
+}
+.card-header{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  height: 507px;
+  margin-left: -4px;
+  margin-top: -336px;
+
+}
+.card-content {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  height: 507px;
+  margin-right: 500px;
+  margin-top: -676px;
+
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 199px;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 151px;
+}
+#button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 151px;
+}
+
+p{
+  position: absolute;
+  padding: 30PX;
+
+  top: -41px;
+  font-size: 30px;
+  font-family: fantasy;
+
+
+
+}
+
+
+
+.image{
+  width: 297px;
+  height: 271px;
+  padding: 15px;
+  margin-left: -13px;
+  margin-top: -13px;
+  float: left;
+  text-align: center;
+}
+.image img{
+  width: 28%;
+  height:10 9%;
+}
+
+
+
+h1{
+color: black;
+font-size: 46px;
+font-family: sans-serif;
+margin-top: 35px;
+position: absolute;
+margin-left: 30px;
+text-align: center;
+
+}
+
+
+
+
+.image1{
+  width: 100%;
+  margin-top: -158px;
+}
+
+
+
+.image3{
+  width: 100%;
+  margin-top: -285px;
+}
+
+
+
+.image2{
+  width: 100%;
+  margin-top: -284px;
+
+  } */
+
+/* .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 55%;
+  height: auto;
+  margin-top: 91px;
+  border: 5px solid rgb(151, 81, 108);
+  left: 363px;
+  margin-left: 917px;
+
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 363px;
+  margin-left: 554px;
+  background: rgb(133, 130, 130);
+  background: rgba(105, 104, 104, 0.5);  
+  overflow: hidden;
+  width: 57%;
+    height: -16px;
+  transition: .5s ease;
+
+}
+
+.container:hover .overlay {
+  
+  height: 100%;
+  bottom: 0px;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  font-size:30px;
+  margin-left: 118px;
+  text-decoration: none;
+  line-height: 25px;
+  position: absolute;
+  right: 79px;
+  top: 115px;
+  padding: 20PX;
+  font-family: -webkit-pictograph;
+  font-size: 30px;
+  font-style: italic;
+  
+} */
+
+/* 
+.head {
+  position: relative;
+  width: 50%;
+}
+
+.img {
+  display: block;
+  width: 55%;
+  height: auto;
+  margin-top: -285px;
+  border: 5px solid rgb(151, 81, 108);
+  right: 370px;
+  margin-left: 69px;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 100%;
+  left: -100px;
+      margin-left: 169px;
+  ;
+    background: rgb(133, 130, 130);
+  background: rgba(105, 104, 104, 0.5);  overflow: hidden;
+  width: 56%;
+    height: -16px;
+  transition: .5s ease;
+
+} */
+
+/* .head:hover .overlay1 {
+ 
+  height: 100%;
+  bottom: 0px;
+}
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+
+  font-size:30px;
+  margin-left: 118px;
+  text-decoration: none;
+  line-height: 25px;
+  position: absolute;
+  right: -28px;
+  top: 125px;
+  padding: 20PX;
+  font-family: -webkit-pictograph;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.content {
+  position: relative;
+  width: 50%;
+}
+
+.gallery {
+
+  width: 58%;
+  height: 280px;
+  margin-top: 27px;
+  display: block;
+  border: 5px solid rgb(151, 81, 108);
+  right: 370px;
+  margin-left: 482px;
+
+
+
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 100%;
+ 
+  left: -115px;
+  margin-left: 596px;
+  background: rgb(133, 130, 130);
+  background: rgba(105, 104, 104, 0.5);  overflow: hidden;
+  width: 60%;
+    height: -16px;
+  transition: .5s ease;
+
+} */
+/* 
+.content:hover .overlay2 {
+
+  height: 100%;
+  bottom: 0px;
+}
+
+.text2{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+
+  text-align: center;
+  font-size:30px;
+
+  text-decoration: none;
+  line-height: 25px;
+  position: absolute;
+  right: 10px;
+  top: 125px;
+  padding: 20PX;
+  font-family: -webkit-pictograph;
+  font-size: 30px;
+  font-style: italic;
+}
+
+
+
+
+
+.Column {
+  position: relative;
+  width: 50%;
+}
+
+.gallery3 {
+  display: block;
+  width: 58%;
+  height: 280px;
+  margin-top: 28px;
+  border: 5px solid rgb(151, 81, 108);
+  left: 363px;
+  margin-left: 913px;
+}
+
+
+
+.overlay3 {
+  position: absolute;
+  bottom: 100%;
+  left: 363px;
+  margin-left: 554px;
+  background: rgb(133, 130, 130);
+  background: rgba(105, 104, 104, 0.5); 
+   overflow: hidden;
+  width: 59%;
+    height: -16px;
+  transition: .5s ease;
+
+} */
+/* 
+.Column:hover .overlay3 {
+  
+  height: 100%;
+  bottom: 0px;
+}
+
+.text3 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  font-size: 30px;
+  margin-left: 118px;
+  text-decoration: none;
+  line-height: 25px;
+  position: absolute;
+  right: 257px;
+  top: 165px;
+  padding: 20PX;
+  font-family: -webkit-pictograph;
+  font-size: 30px;
+  font-style: italic;
+}
+
+
+.Column4 {
+  position: relative;
+  width: 50%;
+}
+
+.gallery4 {
+  display: block;
+  width: 58%;
+  height: 280px;
+  margin-top: -290px;
+  border: 5px solid rgb(151, 81, 108);
+  left: 363px;
+  margin-left: 52px;
+
+}
+
+
+
+.overlay4 {
+  position: absolute;
+  bottom: 100%;
+  left: 363px;
+  margin-left: -311px;
+  background: rgb(133, 130, 130);
+  background: rgba(105, 104, 104, 0.5); 
+   overflow: hidden;
+  width: 59%;
+    height: -16px;
+  transition: .5s ease;
+
+} */
+/* 
+.Column4:hover .overlay4 {
+
+  height: 100%;
+  bottom: 0px;
+}
+
+.text4 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  
+  font-size: 30px;
+  margin-left: 118px;
+  text-decoration: none;
+  line-height: 25px;
+  position: absolute;
+  right: 257px;
+  top: 165px;
+  padding: 20PX;
+  font-family: -webkit-pictograph;
+  font-size: 30px;
+  font-style: italic;
+}
+ */
+
+
+
+
