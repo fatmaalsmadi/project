@@ -1,134 +1,85 @@
 *{
-    margin: 0px;
-    padding: 0px;
-  }
-  body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(165, 130, 143);
-  }
-  .cards{
-  display: inline-block;
-    width: 25%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin: 40px;
-    height: 454px;
-    margin-top: 39px;
-    transition: 5s;
-  
-    box-shadow: 6px 13px 12px black;
-  }
-  h2{
-    font-size: 5.5rem;
-    color: #333;
-    margin: 5.5rem 0;
-    text-align: center;
-    font-style: italic;
-    transition: 5s;
-  
-  }
-  
-  
-  
-  
-  
-  
-  .image img{
-  width: 100%;
-  height: 253px;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(240, 196, 209);
+}
+.cards{
+display: inline-block;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 40px;
+  height: 454px;
+  margin-top: 39px;
   transition: 5s;
-  
-  }
-  .image img :hover{
-  transition: 5s;
-  
-  }
-  
-  .title{
+
+  box-shadow: 6px 13px 12px black;
+}
+h2{
+  font-size: 5.5rem;
+  color: #333;
+  margin: 5.5rem 0;
   text-align: center;
-  margin-top: 13px;
-  
+  font-style: italic;
+  transition: 5s;
+
+}
+h1{
+  font-style: italic;
+
+}
+p{
+font-size:25px;
+font-style: italic;
+}
+
+
+
+
+.image img{
+width: 100%;
+height: 253px;
+transition: 5s;
+
+}
+.image img :hover{
+transition: 5s;
+
+}
+
+.title{
+text-align: center;
+margin-top: 13px;
+
+}
+.des{
+  text-align: center;
+  padding: 0px;
+  margin-top: -515px;
+  transition: 5s;
+
+
+}
+
+button{
+  margin-top: 100px;
+
+  background: linear-gradient(to right , #68233a ,#f56b94);
+}
+   button {
+    font-style: italic;
+    background: linear-gradient(to right , #0a0708 ,#f56b94);
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 38px;
+    font-family: Raleway;
+    cursor: pointer;
+    margin-top: 595px;
+    width: 100%;
+    height: 65px;
+    
   }
-  .des{
-    text-align: center;
-    padding: 0px;
-    margin-top: -515px;
-    transition: 5s;
-  
-  
-  }
-  
-  button{
-    margin-top: 100px;
-  
-    background: linear-gradient(to right , #68233a ,#f56b94);
-  }
-     button {
-      font-style: italic;
-      background: linear-gradient(to right , #68233a ,#f56b94);
-      color: #000000;
-      border: none;
-      padding: 10px 20px;
-      font-size: 38px;
-      font-family: Raleway;
-      cursor: pointer;
-      margin-top: 595px;
-      width: 100%;
-      height: 65px;
-      
-    }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
